@@ -1,0 +1,10 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+    height: 83vh;
+    flex-wrap: wrap;
+    position: relative;
+    overflow-y: scroll;
+}

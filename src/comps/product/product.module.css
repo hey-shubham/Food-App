@@ -1,0 +1,66 @@
+.product {
+  height: 65vh;
+  width: 23vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 5px;
+}
+.image {
+  /* background-color: green; */
+  height: 70%;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.description {
+  height: 30%;
+  padding: 15px;
+  background-color: #fa983a;
+  border-radius: 0 0 4px 4px;
+}
+.name {
+  background-color: rgb(196 85 0);
+  width: 20vw;
+  color: white;
+  margin-left: -15px;
+  padding: 0px 17px;
+  border-radius: 0 1rem 1rem 0;
+}
+.description>p{
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.ratings-time-price{
+  margin-top: 10px;
+}
+.ratings {
+  color:white;
+  background-color: green;
+  text-align: center;
+  padding: 2px;
+  margin-right: 12px;
+}
+.price {
+  margin-top: 6px;
+  color: white;
+}
+button {
+  background-color: #20bf6b;
+  color: white;
+  height: 25px;
+  width: 7vw;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 66%;
+  position: relative;
+  bottom: 4vh;
+  border: 2px solid white;
+}

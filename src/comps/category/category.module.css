@@ -1,0 +1,32 @@
+.category {
+  height: 83%;
+  width: 11.8rem;
+  position: absolute;
+  /* background-color: #58B19F; */
+  left: -1%;
+  z-index: 10; /* to make it above product to click it */
+}
+.type {
+  font-size: 20px;
+  color: #576574;
+}
+.type p {
+  margin: 1.5rem;
+  cursor: pointer;
+  height: 2rem;
+  width: 10rem;
+  padding-top: 5px;
+  border-radius: 8px 50% 50% 8px;
+  border: 2px solid #8395a7;
+  /* background-color: red; */
+  z-index: 1000;
+}
+p span {
+  margin-left: 1rem;
+}
+p i {
+  border-radius: 8px;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+}
